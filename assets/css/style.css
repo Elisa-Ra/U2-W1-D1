@@ -443,4 +443,66 @@ footer a {
 }
 /* MEDIA PRINT */
 @media print {
+  @page {
+    size: 210mm 297mm;
+    margin: 30mm;
+  }
+  body {
+    font-family: Poppins, "Helvetica Neue", sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    padding: 15px;
+    background-color: white;
+    background-image: none;
+  }
+  header {
+    display: none;
+  }
+  #border_div1 {
+    border: 4px solid rgb(165, 2, 165);
+    width: fit-content;
+    box-sizing: border-box;
+
+    vertical-align: top;
+    float: left;
+    margin-right: 10px;
+  }
+  #border_div2 {
+    border: 4px solid rgb(0, 160, 198);
+    width: fit-content;
+    padding: 4px;
+    box-sizing: border-box;
+  }
+  #badge {
+    max-width: 60px;
+
+    display: block;
+  }
+  #p_first {
+    vertical-align: top;
+    font-size: 2.5rem;
+    overflow: hidden;
+    line-height: 1.5;
+  }
+  thead tr {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  th,
+  td {
+    padding: 12px 15px;
+    vertical-align: bottom;
+    text-align: center;
+  }
+  tbody tr {
+    border-bottom: 1px solid #000000;
+  }
+
+  tbody tr:nth-of-type(even) {
+    background-color: #ffffff;
+  }
+
+  tbody tr:last-of-type {
+    border-bottom: 2px solid #ffffff;
+  }
 }
