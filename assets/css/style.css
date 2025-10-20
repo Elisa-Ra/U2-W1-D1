@@ -392,12 +392,22 @@ footer a {
     font-size: 16px;
     margin-bottom: 0;
     border-radius: 20px;
+    height: 100%;
+    vertical-align: top;
   }
   #affianco {
     font-size: 0;
     margin-bottom: 2em;
+    height: 200px;
+  }
+  section {
+    padding-bottom: 2em;
   }
   /* FORM */
+  fieldset {
+    margin-top: -10px;
+  }
+
   input {
     padding: 15px;
     border: 0;
