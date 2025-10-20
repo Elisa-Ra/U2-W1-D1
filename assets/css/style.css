@@ -398,14 +398,17 @@ footer a {
   #affianco {
     font-size: 0;
     margin-bottom: 2em;
-    height: 200px;
+    height: 250px;
   }
   section {
     padding-bottom: 2em;
   }
+  section p {
+    margin-top: 20px;
+  }
   /* FORM */
   fieldset {
-    margin-top: -10px;
+    margin-top: 50px;
   }
 
   input {
@@ -423,6 +426,14 @@ footer a {
   }
   #bigger_h2 {
     font-size: 3rem;
+  }
+  aside {
+    margin-top: 2em;
+  }
+  aside div {
+    display: inline-block;
+    width: 33%;
+    box-sizing: border-box;
   }
 }
 /* MEDIA PRINT */
